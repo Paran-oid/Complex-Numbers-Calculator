@@ -5,22 +5,10 @@ private:
 	int Rel;
 	int Im;
 public:
-	int getIm()
-	{
-		return Im;
-	}
-	int getRel()
-	{
-		return Rel;
-	}
-	void setIm(int value)
-	{
-		Im = value;
-	}
-	void setRel(int value)
-	{
-		Rel = value;
-	}
+	int getIm();
+	int getRel();
+	void setIm(int value);
+	void setRel(int value);
 
 };
 
